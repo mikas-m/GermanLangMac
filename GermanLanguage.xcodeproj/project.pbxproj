@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0485572C1DDF7200E8444D /* swiss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C0485562C1DDF7200E8444D /* swiss.jpg */; };
 		1C60E0712C1B6C00007A5C44 /* GermanLanguageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C60E0702C1B6C00007A5C44 /* GermanLanguageApp.swift */; };
 		1C60E0732C1B6C00007A5C44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C60E0722C1B6C00007A5C44 /* ContentView.swift */; };
 		1C60E0752C1B6C01007A5C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C60E0742C1B6C01007A5C44 /* Assets.xcassets */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C0485542C1D8E7A00E8444D /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		1C0485552C1D8F0500E8444D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1C0485562C1DDF7200E8444D /* swiss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = swiss.jpg; sourceTree = "<group>"; };
 		1C60E06D2C1B6C00007A5C44 /* GermanLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GermanLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C60E0702C1B6C00007A5C44 /* GermanLanguageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GermanLanguageApp.swift; sourceTree = "<group>"; };
 		1C60E0722C1B6C00007A5C44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,9 +76,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C0485532C1D8E5B00E8444D /* UI Custom */ = {
+			isa = PBXGroup;
+			children = (
+				1C0485542C1D8E7A00E8444D /* CustomButton.swift */,
+				1C0485552C1D8F0500E8444D /* Launch Screen.storyboard */,
+				1C0485562C1DDF7200E8444D /* swiss.jpg */,
+			);
+			path = "UI Custom";
+			sourceTree = "<group>";
+		};
 		1C60E0642C1B6C00007A5C44 = {
 			isa = PBXGroup;
 			children = (
+				1C0485532C1D8E5B00E8444D /* UI Custom */,
 				1C60E06F2C1B6C00007A5C44 /* GermanLanguage */,
 				1C60E0812C1B6C02007A5C44 /* GermanLanguageTests */,
 				1C60E08B2C1B6C02007A5C44 /* GermanLanguageUITests */,
@@ -237,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C60E0792C1B6C01007A5C44 /* Preview Assets.xcassets in Resources */,
+				1C0485572C1DDF7200E8444D /* swiss.jpg in Resources */,
 				1C60E0752C1B6C01007A5C44 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GermanLanguage/Preview Content\"";
+				DEVELOPMENT_TEAM = MUD3R6UCTY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -459,6 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GermanLanguage/Preview Content\"";
+				DEVELOPMENT_TEAM = MUD3R6UCTY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
